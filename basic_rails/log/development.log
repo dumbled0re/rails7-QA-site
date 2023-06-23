@@ -1,0 +1,225 @@
+Started GET "/" for 127.0.0.1 at 2023-06-20 16:38:58 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 940)
+Completed 200 OK in 25ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 10828)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-20 16:43:31 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 831)
+Completed 200 OK in 12ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 7855)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:44:15 +0900
+Processing by UsersController#index as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1091)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:45:43 +0900
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 5700)
+
+
+  
+NoMethodError (undefined method `rendar' for #<UsersController:0x0000000000a780>
+Did you mean?  render):
+  
+app/controllers/users_controller.rb:3:in `index'
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:46:38 +0900
+Processing by UsersController#index as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1054)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:46:45 +0900
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 2895)
+
+
+  
+NoMethodError (undefined method `rendar' for #<UsersController:0x00000000011df0>
+Did you mean?  render):
+  
+app/controllers/users_controller.rb:3:in `index'
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:53:36 +0900
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 5708)
+
+
+  
+NoMethodError (undefined method `rendar' for #<UsersController:0x0000000000a758>
+Did you mean?  render):
+  
+app/controllers/users_controller.rb:3:in `index'
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:53:37 +0900
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2858)
+
+
+  
+NoMethodError (undefined method `rendar' for #<UsersController:0x0000000000ab40>
+Did you mean?  render):
+  
+app/controllers/users_controller.rb:3:in `index'
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:53:43 +0900
+Processing by UsersController#index as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1056)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:54:03 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/index"):
+  
+Started GET "/users/users" for 127.0.0.1 at 2023-06-20 16:54:12 +0900
+Processing by UsersController#index as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 764)
+
+
+Started GET "/users/users" for 127.0.0.1 at 2023-06-20 16:56:40 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/users/users"):
+  
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:56:52 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 870.1ms | Allocations: 77755)
+Completed 200 OK in 873ms (Views: 872.0ms | Allocations: 79010)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 16:59:59 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1814)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 3026)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 17:03:10 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1826)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 3108)
+
+
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230620081522)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230620081522"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-06-20 08:19:01.209446"], ["updated_at", "2023-06-20 08:19:01.209446"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (3.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yuta Nakamura"], ["age", 20], ["created_at", "2023-06-20 08:33:08.919048"], ["updated_at", "2023-06-20 08:33:08.919048"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yamada Taro"], ["age", 24], ["created_at", "2023-06-20 08:33:47.902002"], ["updated_at", "2023-06-20 08:33:47.902002"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE "users" SET "name" = ?, "age" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["name", "Hanako Yamada"], ["age", 30], ["updated_at", "2023-06-20 08:36:34.405432"], ["id", 2]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (3.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "liam"], ["age", 20], ["created_at", "2023-06-20 09:04:55.470477"], ["updated_at", "2023-06-20 09:04:55.470477"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "olivia"], ["age", 21], ["created_at", "2023-06-20 09:08:11.987573"], ["updated_at", "2023-06-20 09:08:11.987573"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lucas"], ["age", 24], ["created_at", "2023-06-20 09:08:33.896932"], ["updated_at", "2023-06-20 09:08:33.896932"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 18:13:52 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 537)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 22294)
+Completed 200 OK in 33ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 30264)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 18:13:55 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1359)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1752)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2023-06-20 18:14:10 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 31.5ms | Allocations: 16687)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 18371)
+Completed 200 OK in 42ms (Views: 39.2ms | ActiveRecord: 1.2ms | Allocations: 19616)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-23 21:27:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ritsushi/.asdf/installs/ruby/3.0.2/lib/ruby/gems/3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 831)
+Completed 200 OK in 12ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 7852)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-06-23 21:27:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/users/index" for 127.0.0.1 at 2023-06-23 21:27:44 +0900
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 16674)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 38328)
+Completed 200 OK in 42ms (Views: 37.1ms | ActiveRecord: 0.8ms | Allocations: 40414)
+
+

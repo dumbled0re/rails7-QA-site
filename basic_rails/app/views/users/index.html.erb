@@ -1,0 +1,11 @@
+<p>Hello View!<p>
+<p><%= 10 + 1 %><p>
+<%# @numでusersコントローラーで定義した値を使用できる %>
+<p><%= @num %><p>
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <%= user.id %>, <%= user.name %>, <%= user.age %>
+    </li>
+  <% end %>
+</ul>
