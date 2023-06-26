@@ -37,3 +37,7 @@ puts s.sort.reverse
 # 破壊的メソッド
 puts s.sort!.reverse!
 puts s.size
+
+# すべての要素が文字列の場合は%wで書ける
+a = %w(apple banana orange)
+p a
