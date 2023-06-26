@@ -8,3 +8,8 @@ puts s.upcase
 # 大文字に変換(もとの変数も変わる)
 puts s.upcase!
 puts s
+
+# 文字列の連結(かっこは省略可能)
+# s.concat(" I'm #{name}")
+s.concat " I'm #{name}"
+puts s
