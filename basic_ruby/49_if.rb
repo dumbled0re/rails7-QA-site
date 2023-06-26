@@ -9,3 +9,7 @@ elsif score >= 60
 else
     puts 'D'
 end
+
+# 後置if
+puts 'おはようございます' if true
+puts 'お疲れ様でした' if false
